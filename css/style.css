@@ -3,12 +3,12 @@ body{
 }
 
 
-
+/* 
 p{
     color:red;
     font-weight: bold;
     font-size: 24px;
-}
+} */
 
 h1{
     color: green;
@@ -35,4 +35,19 @@ blockquote, i {
     color: bisque;
     font-style: italic;
 
+}
+
+div{
+    border: 10px solid black;
+    background:yellow;
+    color:green;
+    width: 50%;
+    float:right;
+    border-radius: 50px;
+    margin: 40px;
+    padding: 20px;
+}
+
+div ul{
+    list-style-type: none;
 }
